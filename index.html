@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AURAGLOW — bold, affordable, high-quality beauty.">
+  <title>AURAGLOW — Bold, Affordable, High-Quality Beauty.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="demo-note">AURAGLOW · CONCEPT DEMO · PLACEHOLDER VISUALS · REPLACE ALL PHOTOS BEFORE LAUNCH</div>
+
+  <div class="announcement">
+    <span>FREE U.S. SHIPPING ON ORDERS $35+</span>
+    <span class="announcement-center">WELCOME TO YOUR GLOW ERA ✦ USE CODE <b>GLOW25</b></span>
+    <a href="#bestsellers">SHOP THE DROP →</a>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <button class="icon-button mobile-only" id="menuButton" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+    <a class="wordmark" href="#" aria-label="AURAGLOW home">
+      <img class="logo-img" src="assets/img/logo-dark.png" alt="AURAGLOW">
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#new">NEW</a>
+      <a href="#bestsellers">BEST SELLERS</a>
+      <a href="#category">SHOP</a>
+      <a href="#campaign">OFFERS</a>
+      <a href="#reviews">REVIEWS</a>
+      <a href="#about">OUR STORY</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="searchButton" aria-label="Search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+      </button>
+      <button class="icon-button desktop-action" aria-label="Account">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 21c.5-4.4 3-6.5 7-6.5s6.5 2.1 7 6.5"/></svg>
+      </button>
+      <button class="icon-button cart-button" id="cartButton" aria-label="Cart">
+        <svg viewBox="0 0 24 24"><path d="M4 5h2l2 10h9l2-7H7"/><circle cx="10" cy="19" r="1"/><circle cx="17" cy="19" r="1"/></svg>
+        <span id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#new">NEW</a>
+    <a href="#bestsellers">BEST SELLERS</a>
+    <a href="#category">SHOP</a>
+    <a href="#campaign">OFFERS</a>
+    <a href="#reviews">REVIEWS</a>
+    <a href="#about">OUR STORY</a>
+  </div>
+
+  <main>
+    <section class="hero" id="new" aria-label="Featured collection carousel">
+      <div class="hero-track" id="heroTrack">
+        <div class="hero-slide is-active" style="background-image:url('assets/img/hero-banner-1.png')">
+          <div class="hero-shade"></div>
+          <div class="hero-copy">
+            <p class="eyebrow">THE NEW COLLECTION</p>
+            <h1>BOLD BEAUTY.<br><span>FOR EVERYONE.</span></h1>
+            <p class="hero-intro">Creative, cruelty-free makeup that lets you express yourself without limits. Affordable luxury, made for every day.</p>
+            <div class="hero-cta">
+              <a class="button button-light" href="#bestsellers">SHOP NOW</a>
+              <a class="text-link text-light" href="#about">MEET AURAGLOW <span>→</span></a>
+            </div>
+          </div>
+          <div class="hero-badge">NEW<br>DROP</div>
+        </div>
+        <div class="hero-slide" style="background-image:url('assets/img/hero-banner-2.png')">
+          <div class="hero-shade"></div>
+          <div class="hero-copy">
+            <p class="eyebrow">THE ICONIC GLOW</p>
+            <h1>GLOW YOUR<br><span>OWN WAY.</span></h1>
+            <p class="hero-intro">Skin-first staples that blur, glow, and color-correct — refined formulas built for real life.</p>
+            <div class="hero-cta">
+              <a class="button button-light" href="#bestsellers">SHOP BEST SELLERS</a>
+              <a class="text-link text-light" href="#campaign">SEE THE OFFER <span>→</span></a>
+            </div>
+          </div>
+          <div class="hero-badge">BEST<br>SELLERS</div>
+        </div>
+      </div>
+      <div class="hero-nav">
+        <button class="hero-arrow" id="heroPrev" aria-label="Previous slide">←</button>
+        <div class="hero-dots" id="heroDots"></div>
+        <button class="hero-arrow" id="heroNext" aria-label="Next slide">→</button>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div>
+        <span>AURAGLOW ✦</span>
+        <span>BOLD, AFFORDABLE, HIGH-QUALITY BEAUTY ✦</span>
+        <span>CRUELTY-FREE &amp; VEGAN ✦</span>
+        <span>FREE SHIPPING $35+ ✦</span>
+        <span>LUXURY COLOR, HONEST PRICE ✦</span>
+        <span>AURAGLOW ✦</span>
+        <span>BOLD, AFFORDABLE, HIGH-QUALITY BEAUTY ✦</span>
+      </div>
+    </div>
+
+    <section class="shop-category section-pad" id="category">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SHOP THE COLLECTION</p>
+          <h2>SHOP BY CATEGORY</h2>
+        </div>
+        <a class="text-link" href="#bestsellers">VIEW ALL <span>→</span></a>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="#bestsellers">
+          <img src="assets/img/category-face.png" alt="Face collection">
+          <span class="category-label"><strong>PERFECT FACE</strong><small>7 products →</small></span>
+          <span class="category-tag">FACE</span>
+        </a>
+        <a class="category-card" href="#bestsellers">
+          <img src="assets/img/category-eyes.png" alt="Eyes collection">
+          <span class="category-label"><strong>SIGNATURE EYES</strong><small>6 products →</small></span>
+          <span class="category-tag">EYES</span>
+        </a>
+        <a class="category-card" href="#bestsellers">
+          <img src="assets/img/category-lips.png" alt="Lips collection">
+          <span class="category-label"><strong>SILK LIPS</strong><small>8 products →</small></span>
+          <span class="category-tag">LIPS</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="products-section section-pad" id="bestsellers">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE EDIT</p>
+          <h2>BEST SELLERS</h2>
+        </div>
+        <a class="text-link" href="#campaign">VIEW ALL <span>→</span></a>
+      </div>
+      <div class="product-grid">
+        <article class="product-card" data-product="Aura Velvet Lipstick" data-price="18" data-img="auraglow-lipstick.png">
+          <div class="product-visual">
+            <img src="assets/img/auraglow-lipstick.png" alt="Aura Velvet Lipstick" loading="lazy">
+            <span class="product-tag tag-pink">BEST SELLER</span>
+            <button class="heart" aria-label="Add to wishlist">♡</button>
+            <button class="quick-add" data-id="p1">QUICK ADD</button>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>AURA VELVET LIPSTICK</h3>
+              <p>Rose-gold matte, deep rose finish</p>
+            </div>
+            <strong>$18.00</strong>
+          </div>
+          <div class="swatches" aria-label="Available shades">
+            <button style="--swatch:#AA5255" aria-label="Champagne Gold"></button>
+            <button style="--swatch:#CE807E" aria-label="Light Gold"></button>
+            <button style="--swatch:#A2745F" aria-label="Deep Bronze"></button>
+          </div>
+        </article>
+
+        <article class="product-card" data-product="Peach Aura Blush" data-price="16" data-img="auraglow-blush.png">
+          <div class="product-visual">
+            <img src="assets/img/auraglow-blush.png" alt="Peach Aura Blush" loading="lazy">
+            <span class="product-tag tag-green">20% OFF</span>
+            <button class="heart" aria-label="Add to wishlist">♡</button>
+            <button class="quick-add" data-id="p2">QUICK ADD</button>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>PEACH AURA BLUSH</h3>
+              <p>Soft-focus warm peach powder</p>
+            </div>
+            <strong><s>$20.00</s> $16.00</strong>
+          </div>
+          <div class="swatches" aria-label="Available shades">
+            <button style="--swatch:#EFB088" aria-label="Peach"></button>
+            <button style="--swatch:#D9A282" aria-label="Sand"></button>
+            <button style="--swatch:#B38872" aria-label="Terra"></button>
+          </div>
+        </article>
+
+        <article class="product-card" data-product="Aura Earth Palette" data-price="26" data-img="auraglow-eyeshadow.png">
+          <div class="product-visual">
+            <img src="assets/img/auraglow-eyeshadow.png" alt="Aura Earth Palette" loading="lazy">
+            <span class="product-tag tag-yellow">NEW</span>
+            <button class="heart" aria-label="Add to wishlist">♡</button>
+            <button class="quick-add" data-id="p3">QUICK ADD</button>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>AURA EARTH PALETTE</h3>
+              <p>Warm terracotta neutral shades</p>
+            </div>
+            <strong>$26.00</strong>
+          </div>
+          <div class="swatches" aria-label="Available shades">
+            <button style="--swatch:#D3A178" aria-label="Beige"></button>
+            <button style="--swatch:#7C5136" aria-label="Terracotta"></button>
+            <button style="--swatch:#493325" aria-label="Espresso"></button>
+          </div>
+        </article>
+
+        <article class="product-card" data-product="Aura Setting Powder" data-price="18" data-img="auraglow-powder.png">
+          <div class="product-visual">
+            <img src="assets/img/auraglow-powder.png" alt="Aura Setting Powder" loading="lazy">
+            <span class="product-tag tag-purple">LIMITED</span>
+            <button class="heart" aria-label="Add to wishlist">♡</button>
+            <button class="quick-add" data-id="p4">QUICK ADD</button>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>AURA SETTING POWDER</h3>
+              <p>Weightless blur finish, all day</p>
+            </div>
+            <strong>$18.00</strong>
+          </div>
+          <div class="swatches" aria-label="Available shades">
+            <button style="--swatch:#F2DFCA" aria-label="Ivory"></button>
+            <button style="--swatch:#A17A5A" aria-label="Warm Sand"></button>
+            <button style="--swatch:#7C5232" aria-label="Deep"></button>
+          </div>
+        </article>
+
+        <article class="product-card" data-product="Luminous Foundation" data-price="22" data-img="auraglow-foundation.png">
+          <div class="product-visual">
+            <img src="assets/img/auraglow-foundation.png" alt="Luminous Foundation" loading="lazy">
+            <span class="product-tag tag-pink">TRENDING</span>
+            <button class="heart" aria-label="Add to wishlist">♡</button>
+            <button class="quick-add" data-id="p5">QUICK ADD</button>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>LUMINOUS FOUNDATION</h3>
+              <p>Buildable glow, 20 inclusive shades</p>
+            </div>
+            <strong>$22.00</strong>
+          </div>
+          <div class="swatches" aria-label="Available shades">
+            <button style="--swatch:#D6AF7D" aria-label="Porcelain"></button>
+            <button style="--swatch:#AB7E53" aria-label="Sand"></button>
+            <button style="--swatch:#7A4E2A" aria-label="Taupe"></button>
+          </div>
+        </article>
+
+        <article class="product-card" data-product="Champagne Glow Highlighter" data-price="20" data-img="auraglow-highlighter.png">
+          <div class="product-visual">
+            <img src="assets/img/auraglow-highlighter.png" alt="Champagne Glow Highlighter" loading="lazy">
+            <span class="product-tag tag-green">15% OFF</span>
+            <button class="heart" aria-label="Add to wishlist">♡</button>
+            <button class="quick-add" data-id="p6">QUICK ADD</button>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>CHAMPAGNE GLOW HIGHLIGHTER</h3>
+              <p>Glass-skin champagne shimmer</p>
+            </div>
+            <strong><s>$24.00</s> $20.00</strong>
+          </div>
+          <div class="swatches" aria-label="Available shades">
+            <button style="--swatch:#F2E0C9" aria-label="Pearl"></button>
+            <button style="--swatch:#CFA77D" aria-label="Champagne"></button>
+            <button style="--swatch:#795335" aria-label="Bronze"></button>
+          </div>
+        </article>
+
+        <article class="product-card" data-product="Glossy Aura Lip Oil" data-price="14" data-img="auraglow-lipgloss.png">
+          <div class="product-visual">
+            <img src="assets/img/auraglow-lipgloss.png" alt="Glossy Aura Lip Oil" loading="lazy">
+            <span class="product-tag tag-yellow">NEW</span>
+            <button class="heart" aria-label="Add to wishlist">♡</button>
+            <button class="quick-add" data-id="p7">QUICK ADD</button>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>GLOSSY AURA LIP OIL</h3>
+              <p>Cushiony rosy tint, glass shine</p>
+            </div>
+            <strong>$14.00</strong>
+          </div>
+          <div class="swatches" aria-label="Available shades">
+            <button style="--swatch:#FAD3D3" aria-label="Nude"></button>
+            <button style="--swatch:#A95156" aria-label="Rosy"></button>
+            <button style="--swatch:#862D33" aria-label="Mauve"></button>
+          </div>
+        </article>
+
+        <article class="product-card" data-product="Aura Brush Set" data-price="32" data-img="auraglow-brushes.jpg">
+          <div class="product-visual">
+            <img src="assets/img/auraglow-brushes.jpg" alt="Aura Brush Set" loading="lazy">
+            <span class="product-tag tag-purple">BEST SELLER</span>
+            <button class="heart" aria-label="Add to wishlist">♡</button>
+            <button class="quick-add" data-id="p8">QUICK ADD</button>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>AURA BRUSH SET</h3>
+              <p>Three essential pro brushes</p>
+            </div>
+            <strong>$32.00</strong>
+          </div>
+          <div class="swatches" aria-label="Available shades">
+            <button style="--swatch:#F0D5AD" aria-label="Cream"></button>
+            <button style="--swatch:#CAA883" aria-label="Gold"></button>
+            <button style="--swatch:#764F31" aria-label="Bronze"></button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="campaign">
+      <div class="about-media">
+        <img src="assets/img/auraglow-story.png" alt="AURAGLOW world" loading="lazy">
+        <div class="about-sticker">100%<br>YOUR GLOW</div>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">LIMITED TIME OFFER</p>
+        <h2>SAVE <span class="offer-num">25%</span><br><span>ON YOUR GLOW.</span></h2>
+        <p>Season offers are here — take <strong>25% OFF</strong> your favorite AURAGLOW essentials with code <strong>GLOW25</strong> at checkout. Free U.S. shipping on orders over $35, while stocks last.</p>
+        <a class="button button-dark" href="#bestsellers">SHOP THE OFFER</a>
+        <div class="manifesto">
+          <span>CODE: GLOW25</span>
+          <span>FREE SHIPPING $35+</span>
+          <span>CRUELTY-FREE</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section section-pad" id="reviews">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">REAL PEOPLE, REAL GLOW</p>
+          <h2>GLOW NOTES</h2>
+        </div>
+        <span class="rating-summary">★ 4.8 · 12,400+ REVIEWS</span>
+      </div>
+      <div class="review-grid">
+        <figure class="review-card">
+          <img src="assets/img/review-1.png" alt="Customer review" loading="lazy">
+          <figcaption><span>★★★★★</span><p>“This little magic in a bottle completely transformed my routine.”</p><small>— MAYA, 28</small></figcaption>
+        </figure>
+        <figure class="review-card">
+          <img src="assets/img/review-2.png" alt="Customer review" loading="lazy">
+          <figcaption><span>★★★★★</span><p>“I’m in my 50s and I honestly love this — it never sits in my lines.”</p><small>— DIANE, 54</small></figcaption>
+        </figure>
+        <figure class="review-card">
+          <img src="assets/img/review-3.png" alt="Customer review" loading="lazy">
+          <figcaption><span>★★★★★</span><p>“Haven’t touched another liquid blush since I found this one.”</p><small>— PRIYA, 31</small></figcaption>
+        </figure>
+        <figure class="review-card">
+          <img src="assets/img/review-4.png" alt="Customer review" loading="lazy">
+          <figcaption><span>★★★★★</span><p>“Light matte finish that never looks cakey. Editors approved.”</p><small>— JORDAN, 26</small></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="campaign" id="about">
+      <img class="campaign-bg" src="assets/img/about-bg.jpg" alt="Perfect base campaign" loading="lazy">
+      <div class="campaign-shade"></div>
+      <div class="campaign-copy">
+        <p class="eyebrow">THE AURAGLOW PHILOSOPHY</p>
+        <h2>BEAUTY WITHOUT<br><span>LIMITS.</span></h2>
+        <p>AURAGLOW makes creative, cruelty-free makeup accessible to everyone. Fun, fearless beauty that lets you express yourself without limits — at a price that feels right.</p>
+        <div class="campaign-cta">
+          <a class="button button-light" href="#bestsellers">EXPLORE THE WORLD</a>
+          <span class="campaign-badge">BOLD BY<br>DESIGN</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="beliefs section-pad">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">OUR PROMISES</p>
+          <h2>BEAUTY WITH INTEGRITY</h2>
+        </div>
+      </div>
+      <div class="belief-grid">
+        <div class="belief-card"><img src="assets/img/img_13.jpg" alt="Work ethics" loading="lazy"></div>
+        <div class="belief-card"><img src="assets/img/img_15.jpg" alt="Sustainable packaging" loading="lazy"></div>
+        <div class="belief-card"><img src="assets/img/img_16.jpg" alt="Vegan formulas" loading="lazy"></div>
+        <div class="belief-card"><img src="assets/img/img_44.jpg" alt="Cruelty free" loading="lazy"></div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div><b>✦</b><strong>REFINED FORMULAS</strong><span>High-quality, easy color.</span></div>
+      <div><b>★</b><strong>MADE FOR EVERYONE</strong><span>Inclusive by design.</span></div>
+      <div><b>→</b><strong>AFFORDABLE LUXURY</strong><span>Bold looks, honest price.</span></div>
+      <div><b>♡</b><strong>CRUELTY-FREE &amp; VEGAN</strong><span>Kind to every face.</span></div>
+    </section>
+
+    <section class="newsletter">
+      <div>
+        <p class="eyebrow">JOIN THE GLOW</p>
+        <h2>GLOW MAIL,<br>NEVER BORING.</h2>
+      </div>
+      <form id="newsletterForm">
+        <label for="email">Early access to drops, offers and glow secrets.</label>
+        <div class="email-field">
+          <input id="email" type="email" placeholder="YOUR EMAIL ADDRESS" required>
+          <button type="submit">SUBSCRIBE →</button>
+        </div>
+        <p id="formMessage" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <a class="wordmark footer-logo" href="#" aria-label="AURAGLOW home"><img class="logo-img logo-img-light" src="assets/img/logo-dark.png" alt="AURAGLOW"></a>
+      <p>BOLD BEAUTY.<br>AFFORDABLE LUXURY.</p>
+      <div class="socials"><a href="#">IG</a><a href="#">TT</a><a href="#">YT</a><a href="#">PIN</a></div>
+    </div>
+    <div class="footer-links">
+      <div><strong>SHOP</strong><a href="#category">New</a><a href="#bestsellers">Best Sellers</a><a href="#category">Face</a><a href="#category">Eyes</a><a href="#category">Lips</a></div>
+      <div><strong>HELP</strong><a href="#">FAQ</a><a href="#">Contact Us</a><a href="#">Track Order</a><a href="#">Accessibility</a></div>
+      <div><strong>ABOUT</strong><a href="#about">Our Story</a><a href="#beliefs">Glow Journal</a><a href="#">Careers</a><a href="#">Stockists</a></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AURAGLOW. CONCEPT DEMO — PHOTOS ARE PLACEHOLDERS. NOT FOR COMMERCIAL LAUNCH.</span>
+      <span>USD / UNITED STATES</span>
+    </div>
+  </footer>
+
+  <div class="search-overlay" id="searchOverlay">
+    <button id="closeSearch" aria-label="Close search">×</button>
+    <p>FIND YOUR GLOW</p>
+    <input id="searchInput" type="search" placeholder="SEARCH AURAGLOW">
+    <div class="popular"><span>POPULAR:</span><a href="#" data-query="lip">Lip</a><a href="#" data-query="blush">Blush</a><a href="#" data-query="new">New Drop</a></div>
+  </div>
+
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="drawer-head"><strong>YOUR GLOW BAG</strong><button id="closeCart">×</button></div>
+    <div class="cart-items" id="cartItems">
+      <div class="empty-cart"><span>♡</span><p>Your bag is ready for glow.</p></div>
+    </div>
+    <div class="drawer-footer">
+      <div class="drawer-total"><span>SUBTOTAL</span><strong id="cartTotal">$0.00</strong></div>
+      <button id="checkoutBtn">CHECKOUT — DEMO</button>
+      <p class="drawer-note">Secure checkout demo · no real payment</p>
+    </div>
+  </aside>
+  <div class="scrim" id="scrim"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
